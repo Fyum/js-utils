@@ -1,0 +1,43 @@
+{
+  "name": "js-utils",
+  "version": "1.0.0",
+  "description": "Utility functions in js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config=test/.jestrc.json --silent",
+    "lint": "eslint --ignore-path ./.eslintignore . --fix",
+    "build": "babel src --out-dir build --source-maps --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fyum/js-utils.git"
+  },
+  "author": "Fyum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fyum/js-utils/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "6.23.0",
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-jest": "22.4.1",
+    "babel-loader": "7.1.3",
+    "babel-plugin-syntax-async-functions": "6.13.0",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-plugin-transform-regenerator": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-latest": "6.24.1",
+    "babel-register": "6.26.0",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.15.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "jest": "22.4.2",
+    "jsdom": "11.11.0",
+    "webpack": "4.1.1"
+  },
+  "homepage": "https://github.com/Fyum/js-utils#readme"
+}
