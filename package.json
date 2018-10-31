@@ -4,7 +4,7 @@
   "description": "Utility functions in js",
   "main": "index.js",
   "scripts": {
-    "test": "jest --config=test/.jestrc.json --silent",
+    "test": "jest --config=.jestrc.json --silent",
     "lint": "eslint --ignore-path ./.eslintignore . --fix",
     "build": "babel src --out-dir build --source-maps --copy-files"
   },
