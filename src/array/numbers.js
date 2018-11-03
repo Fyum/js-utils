@@ -20,7 +20,6 @@ const numbers = ({
       .map((x, i) => 
         Number(i + from))
   )
-
 }
 
 export default
