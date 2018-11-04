@@ -55,6 +55,5 @@ describe('given some non leap years', () => {
         .toEqual(expected);
     });
 
-
   }); 
 });
