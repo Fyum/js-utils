@@ -17,6 +17,7 @@ const recursiveCount = ({
  * 
  * @param {string} text - the source text
  * @param {string} toFind - the string to find the occurrences for
+ * @returns the number of times the text occures
  */
 const occurrences = ({
   text = '',
