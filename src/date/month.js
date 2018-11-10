@@ -1,6 +1,6 @@
 import MONTHS from '../../resources/months';
 /**
- * @function months Provide the month details for the given the number
+ * @function month Provide the month details for the given number
  * @param {number} num - The number of the month
  * @returns the month details
 */
