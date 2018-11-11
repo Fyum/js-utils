@@ -2,7 +2,7 @@ const isObject =
   value =>
     value instanceof Object;
 
-// TODO make it work for nested objects, and arrays
+// TODO make it work for arrays
 /**
  * @function equals - check if two objects are equals
  * @param {object1} first object
@@ -15,17 +15,14 @@ const equals = ({
 }) =>
   Object
     .keys(object2)
-    .every(key => {
-      if (isObject(object1[key])
-        && isObject(object2[key])) {
-        return equals({
+    .every(key => 
+      isObject(object1[key])
+        && isObject(object2[key])
+      ? equals({
           object1: object1[key],
           object2: object2[key],
-        });
-      }
-
-      return object1[key] === object2[key]
-    }
+        })
+      : object1[key] === object2[key]
     );
 
 export default
