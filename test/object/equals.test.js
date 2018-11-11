@@ -70,8 +70,7 @@ xdescribe('given two objects with the same properties and values containing arra
   });
 });
 
-// TODO enable test when implemented
-xdescribe('given two objects with the same properties and values containing objects', () => {
+describe('given two objects with the same properties and values containing objects', () => {
   const object1 = {
     key1: {
       key11: 'KEY11'
